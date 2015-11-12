@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_todo_list"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="待办任务" />
+        <item
+            android:id="@+id/nav_applied_process"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="已申请" />
+
+        <item
+            android:id="@+id/nav_dealed_process"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="已处理" />
+        <item
+            android:id="@+id/nav_strart_process"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="发起审批" />
+        <item
+            android:id="@+id/nav_address_book"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="通讯录"></item>
+    </group>
+
+    <item android:title="联系我们">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="问题反馈" />
+            <item
+                android:id="@+id/nav_aboult"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="关于" />
+        </menu>
+    </item>
+
+</menu>

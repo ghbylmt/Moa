@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Moa</string>
+    <string name="title_activity_tutroail">Tutroail</string>
+    <string name="title_activity_main">Index</string>
+    <string name="title_activity_login">Login</string>
+    <string name="tips_exist">Press Back Again to Exist</string>
+    <string name="login_username">User Name</string>
+    <string name="login_userpwd">Password</string>
+    <string name="login_login">Login</string>
+    <string name="login_login_error">Login Failed</string>
+    <string name="login_user_name_error">User Name is Illegal</string>
+    <string name="login_user_password_error">Password is Illegal</string>
+    <string name="login_login_success">Login Success</string>
+    <string name="login_login_failed">Login Failed</string>
+    <string name="welcome_not_login_yet">U have not login Yet</string>
+    <string name="login_loginingg">Logining</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="setting_exit">LogOut</string>
+    <string name="setting_setting">Setting</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

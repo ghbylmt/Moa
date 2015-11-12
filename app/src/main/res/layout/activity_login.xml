@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackgrand"
+    tools:context="com.hsjq.it.moa.LoginActivity">
+
+    <com.hsjq.it.moa.until.CircularImage
+        android:id="@+id/cover_user_photo"
+        android:layout_width="180.0dip"
+        android:layout_height="180.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dip" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dip"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/edittext_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/input_shape_top"
+            android:hint="@string/login_username"
+            android:inputType="textNoSuggestions"
+            android:paddingLeft="30dp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/edittext_user_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/input_shap_bottom"
+            android:hint="@string/login_userpwd"
+            android:inputType="textPassword"
+            android:paddingLeft="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/login_login"
+            android:textColor="@color/white">
+
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>
+

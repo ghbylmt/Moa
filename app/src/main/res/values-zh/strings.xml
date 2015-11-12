@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">掌上江泉</string>
+    <string name="title_activity_tutroail">欢迎使用掌上江泉</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_main">掌上江泉</string>
+    <string name="tips_exist">再按一次退出程序</string>
+    <string name="login_username">用户名</string>
+    <string name="login_userpwd">密码</string>
+    <string name="login_login">登录</string>
+    <string name="login_login_error">登录失败</string>
+    <string name="login_user_password_error">用户密码不能为空</string>
+    <string name="login_user_name_error">用户名不能为空</string>
+    <string name="login_login_success">登录成功</string>
+    <string name="login_login_failed">登录失败</string>
+    <string name="welcome_not_login_yet">您当前尚未登录，请先登录</string>
+    <string name="login_loginingg">正在登陆</string>
+    <string name="navigation_drawer_close">打开侧边栏</string>
+    <string name="navigation_drawer_open">关闭侧边栏</string>
+    <string name="setting_exit">安全退出</string>
+    <string name="setting_setting">设置</string>
+</resources>
